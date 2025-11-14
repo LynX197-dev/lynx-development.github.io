@@ -1,4 +1,6 @@
 # LynX Development
+[![Download on Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_64h.png)](https://modrinth.com/user/LynX_Development)
+
 Lightweight · Optimized · Feature‑Rich Minecraft Plugins
 
 Welcome to the home of **LynX Development**, where we build modern, efficient, and versatile Minecraft server plugins designed with performance and simplicity in mind.
