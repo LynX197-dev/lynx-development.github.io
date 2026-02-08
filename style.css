@@ -42,7 +42,7 @@ h1 {
     transition: all 0.3s ease;
 }
 .btn:hover { box-shadow: 0 0 20px #00ffffaa; transform: translateY(-3px); }
-.btn.small { padding: 10px 20px; font-size: 0.9rem; }
+.btn.small { padding: 10px 20px; font-size: 0.9rem; margin-top: auto; }
 .btn.back { background: none; color: #00ffff; border: 1px solid #00ffff; }
 
 .about {
