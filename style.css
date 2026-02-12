@@ -184,7 +184,9 @@ nav a:hover {
 
 .category-header {
     margin-bottom: 30px;
-    text-align:center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
 
 
