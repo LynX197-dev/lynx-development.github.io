@@ -189,6 +189,16 @@ nav a:hover {
     flex-direction: column;
 }
 
+.version-badge {
+            display: inline-block;
+            margin-left: 10px;
+            padding: 4px 10px;
+            font-size: 12px;
+            border-radius: 20px;
+            background: #0ff;
+            color: #000;
+            font-weight: bold;
+        }
 
 /* Fade-down animation */
 @keyframes fadeDown {
