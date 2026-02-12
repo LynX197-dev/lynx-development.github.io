@@ -178,6 +178,14 @@ nav a:hover {
     margin-bottom: 5px;
 }
 
+.category {
+    margin-bottom: 80px;
+}
+
+.category-header {
+    margin-bottom: 30px;
+}
+
 
 /* Fade-down animation */
 @keyframes fadeDown {
