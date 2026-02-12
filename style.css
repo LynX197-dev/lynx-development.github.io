@@ -156,6 +156,18 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
+.extra-content {
+    display: none;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.extra-content ul {
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+
+
 /* Fade-down animation */
 @keyframes fadeDown {
     from { opacity: 0; transform: translateY(-15px); }
