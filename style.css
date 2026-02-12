@@ -186,19 +186,6 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
-.category-header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.category-header h2 {
-    margin-bottom: 8px;
-}
-
-.category-header p {
-    opacity: 0.8;
-}
-
 
 /* Fade-down animation */
 @keyframes fadeDown {
