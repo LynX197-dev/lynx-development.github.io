@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LynX Development</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+
+    <style>
+        /* Simple responsive navbar */
+        nav {
+            width: 100%;
+            background: #111;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.25s;
+        }
+
+        nav a:hover {
+            color: #0ff;
+        }
+
+        /* Mobile fix */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+                padding: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NEW NAVBAR -->
+   <nav>
+    <a href="/home/" class="active">Home</a>
+    <a href="/plugins/">Plugins</a>
+    <a href="/modpacks/">Modpacks</a>
+    <a href="/support/">Support</a>
+   </nav>
+
+
+    <header>
+        <a href="/home/" target="_blank">
+            <img src="/assets/logo.png" alt="LynX Development Logo" class="logo">
+        </a>
+        <h1>Support</h1>
+        <a href="https://discord.gg/ctmgRAm5vA" class="btn">Discord</a>
+    </header>
+
+    <footer>
+        <p>© 2025 LynX Development. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
